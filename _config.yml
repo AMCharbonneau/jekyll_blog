@@ -1,0 +1,20 @@
+# Site settings
+title: Life Travel Psychology
+email: annacharbonneauphd@gmail.com
+description: "This is a blog about life, travel, psychology, and web development."
+  
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://localhost:4000" # the base hostname & protocol for your site
+
+github_username:  AMCharbonneau
+
+# Build settings
+markdown: kramdown
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "post"
+    values:
+      author: "Anna Charbonneau"
